@@ -18,3 +18,6 @@ example:
   buf, err := json.Marshal(client.Jar)
   // ioutil.WriteFile("cookies.json", buf, 0644)
   jarClone, err := cookiejar.Clone(&cookiejarOptions, buf)
+
+License:
+  as the source code of GoLang
